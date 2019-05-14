@@ -1,7 +1,7 @@
 " Turn on line numbers
 " Turn off wrapping and set tabstop
-set tabstop=3
-set shiftwidth=3
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set nowrap
 set number
@@ -36,6 +36,7 @@ filetype plugin indent on
 colorscheme molokai
 let g:airline_theme='simple'
 let g:airline#extensions#tabline#enabled=1
+let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 " Vim GLSL
 let g:glsl_file_extensions = '*.glsl'
