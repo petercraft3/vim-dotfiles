@@ -35,3 +35,7 @@ filetype plugin indent on
 " Color scheme
 colorscheme molokai
 let g:airline_theme='simple'
+let g:airline#extensions#tabline#enabled=1
+
+" Vim GLSL
+let g:glsl_file_extensions = '*.glsl'
