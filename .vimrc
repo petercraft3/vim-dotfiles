@@ -33,7 +33,7 @@ syntax on
 filetype plugin indent on
 
 " Color scheme
-colorscheme molokai
+colorscheme dracula
 let g:airline_theme='simple'
 let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
