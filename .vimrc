@@ -33,7 +33,7 @@ syntax on
 filetype plugin indent on
 
 " Color scheme
-colorscheme monochrome
+colorscheme tender
 let g:airline_theme='monochrome'
 let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
